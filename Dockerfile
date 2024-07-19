@@ -14,4 +14,4 @@ RUN mvn clean install
 CMD ["mvn", "spring-boot:run"]
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 80
