@@ -10,7 +10,6 @@ WORKDIR /usr/src/app
 RUN mvn clean install
 
 # Run the application
-
 CMD ["mvn", "spring-boot:run"]
 
 # Expose the port
